@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Оқылған Кітаптар</title>
+    <style>
+        /* Жалпы беттің стилі */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-transform: uppercase;
+            border-bottom: 2px solid #2c3e50;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        /* Кітаптар контейнері */
+        .book-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+
+        /* Әр кітаптың блогы */
+        .book-card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+
+        .book-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .book-card img {
+            border-radius: 5px;
+            object-fit: cover;
+        }
+
+        .month-title {
+            width: 100%;
+            text-align: center;
+            background: #2c3e50;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+        <h1>📚 2026 Жылы Оқылған Кітаптар</h1>
+    </center>
+
+    <h2 class="month-title">ҚАҢТАР АЙЫ</h2>
+    <div class="book-container">
+        <div class="book-card">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.S5lf8Q--Y0C5ID9yZAf37AHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Сүйекші" width="250" height="350">
+            <p><b>Сүйекші</b></p>
+        </div>
+        <div class="book-card">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.UqEpKGY-6ZMyBJVUkIA19wHaL_?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Оң қол" width="250" height="350">
+            <p><b>Оң қол</b></p>
+        </div>
+        <div class="book-card">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.w6AprLpWyBfACPHClke_NwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Гауһар тас" width="250" height="350">
+            <p><b>Гауһар тас</b></p>
+        </div>
+    </div>
+
+    <h2 class="month-title">АҚПАН АЙЫ</h2>
+    <div class="book-container">
+        <div class="book-card">
+            <img src="https://resources.cdn-kaspi.kz/img/m/p/h55/h6c/86770535399454.jpg?format=gallery-large" alt="Жас жігітке өмір туралы ашық хат" width="250" height="350">
+            <p><b>Жас жігітке өмір туралы ашық хат</b></p>
+        </div>
+    </div>
+
+</body>
+</html>
